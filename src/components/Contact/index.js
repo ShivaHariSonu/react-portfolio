@@ -13,7 +13,7 @@ const Contact = () => {
     const sendEmail = (e) =>{
         e.preventDefault();
 
-        emailjs .sendForm("service_7s3c2a5", 'template_ydnzg1c',form.current,"Q_LkAPDNbEjQgGcDg")
+        emailjs.sendForm("service_7s3c2a5", 'template_ydnzg1c',form.current,"Q_LkAPDNbEjQgGcDg")
         .then(
           (result) => {
             alert('Message successfully sent!')
