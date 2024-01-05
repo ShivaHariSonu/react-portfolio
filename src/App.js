@@ -12,8 +12,8 @@ function App() {
     <Routes>
       <Route path = '/react-portfolio/' element = {<Layout/>}>
         <Route path = '/react-portfolio/' element = {<Home/>}/> 
-        <Route path='react-portfolio/about' element = {<About/>}/> 
-        <Route path='react-portfolio/contact' element = {<Contact/>}/> 
+        <Route path='/react-portfolio/about' element = {<About/>}/> 
+        <Route path='/react-portfolio/contact' element = {<Contact/>}/> 
       </Route>
     </Routes>
     </>

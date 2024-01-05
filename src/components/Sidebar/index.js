@@ -13,15 +13,15 @@ const Sidebar = () =>(
             <img className = "sub-logo" src={LogoSubtitle} alt='slobodan'/>
         </Link>
         <nav>
-            <NavLink exact = 'true' activeclassname = 'active' to="/">
+            <NavLink exact = 'true' activeclassname = 'active' to="/react-portfolio/">
                 <FontAwesomeIcon icon={faHome} color='#4d4d4e'></FontAwesomeIcon>
                 
             </NavLink>
-            <NavLink exact = 'true' activeclassname = 'about-link' to="/about">
+            <NavLink exact = 'true' activeclassname = 'about-link' to="/react-portfolio/about">
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e'></FontAwesomeIcon>
                 
             </NavLink>
-            <NavLink exact = 'true' activeclassname = 'contact-link' to="/contact">
+            <NavLink exact = 'true' activeclassname = 'contact-link' to="/react-portfolio/contact">
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'></FontAwesomeIcon>
                 
             </NavLink>
