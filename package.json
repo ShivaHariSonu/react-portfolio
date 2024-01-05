@@ -1,7 +1,8 @@
 {
   "name": "react-portfolio",
-  "homepage":"https://ShivaHariSonu.github.io/react-portfolio",
+  "homepage":"https://ShivaHariSonu.github.io/react-portfolio/",
   "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
