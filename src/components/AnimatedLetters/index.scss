@@ -8,6 +8,17 @@
     min-width: 10px;
   }
   
+  .text-animate-hover-aboutme {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;  
+    font-weight: 400;
+    font-size: 80px;
+    &:hover {
+      animation: rubberBand 1s;
+      color: #ffd700;
+    }
+  }
   .text-animate-hover {
     min-width: 10px;
     display: inline-block;

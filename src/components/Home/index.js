@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 import Logo from './Logo';
 import Loader from 'react-loaders'
+import PersonalPhoto from '../../assets/images/shivahariphoto.png';
 
 const Home = () =>{
 
@@ -31,8 +32,22 @@ const Home = () =>{
                 <br/>
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx ={15}/>
                 </h1>
-                <h2>Systems/ AI/ Algorithms</h2>
+                <h2>Algorithms/ AI/ Systems</h2>
                 <Link to = "\contact" className = 'flat-button'>Contact Me</Link>
+                <img className= "personal-photo" src={PersonalPhoto} alt='Shiva Hari photo'></img>
+                <hr></hr>
+                <h2 className="visitor-count">Visitor count</h2>
+                <table>
+                    <tr>
+                        <td className="visitor-p"></td>
+                        <td><img src="https://profile-counter.glitch.me/shivaharisonu/count.svg" alt="vistor count" height="50" /></td>
+                    </tr>
+                </table>
+                <p className='visitor-p'>Count was started on 19th Jan 2024.<br />
+                Wish me on that day if you remember &#128540; <br/>
+                It is somewhat approximate measure of how many times it got visited <br/>
+                The error keeps on increasing as you reload &#128529; &#128529;
+                </p>
 
             </div>
             <Logo></Logo>

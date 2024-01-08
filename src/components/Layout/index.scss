@@ -32,6 +32,7 @@
     opacity: 0;
     top: 5%;
     margin: 0 auto;
+    overflow: scroll;
     z-index: 1;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
@@ -43,13 +44,13 @@
   .container.portfolio-page {
     
       h1 {
-        font-size: 53px;
+        font-size: 70px;
         font-family: 'Coolvetica';
         color: #ffd700;
-        font-weight: 400;
-        margin-top: 0;
+        font-weight: 450;
+        margin-top: -50px;
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         left: -10px;
   
         &:before {
@@ -79,7 +80,7 @@
       }
   
       p {
-        font-size: 13px;
+        font-size: 15px;
         color: #fff;
         font-family: sans-serif;
         font-weight: 300;

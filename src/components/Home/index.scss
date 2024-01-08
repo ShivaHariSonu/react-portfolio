@@ -4,14 +4,14 @@
       left: 10%;
       top: 50%;
       transform: translateY(-50%);
-      width: 40%;
+      width: 80%;
       max-height: 90%;
     }
   
     h1 {
       color: #fff;
-      font-size: 56px;
-      line-height: 53px;
+      font-size: 80px;
+      line-height: 70px;
       margin: 0;
       font-family: 'Coolvetica';
       font-weight: 400;
@@ -42,7 +42,7 @@
       img {
         margin-left: 20px;
         opacity: 0;
-        width: 32px;
+        width: 50px;
         height: auto;
         animation: rotateIn 1s linear both;
         animation-delay: 1.4s;
@@ -78,5 +78,32 @@
         color: #333;
       }
     }
-  }
-  
+    hr{
+      margin-top: 450px;
+      margin-left: 0px;
+    }
+    .visitor-count{
+      color: #fff;
+      font-size: 56px;
+      line-height: 53px;
+      margin-top: 25px;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+    }
+    .visitor-p{
+      color: #8d8d8d;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+    .personal-photo{
+          display: block;
+          margin: -250px -100px -100px 800px;
+          width: 400px;
+          height: 550px;
+          
+    }
+}
